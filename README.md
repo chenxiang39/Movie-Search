@@ -5,6 +5,8 @@
 *  Accomplished an interactive webpage using ReactJS(include Redux), HTML, CSS in Front-end.
 *  Handled HTTP requests and responses (TMDB API) by using Flask.
 
+*  Azure deployment preview: [Movie-Search](https://www.movie-search-react.cc/)
+
 <br>
 
 ## React
