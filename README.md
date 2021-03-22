@@ -9,15 +9,23 @@
 
 ## React
 
+<br>
+
+***Install yarn***
+[tutorial](https://classic.yarnpkg.com/en/docs/install) and continue
+
+<br>
+
 * In the  `/Movie_search_react` directory:
 
+<br>
 <br>
 
 > Install the necessary modules.
 
-```
-npm install 
 
+```
+yarn install 
 ```
 
 <br>
@@ -45,7 +53,6 @@ npm start
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
 ```
 
 <br>
@@ -55,7 +62,6 @@ pip install -r requirements.txt
 
 ```
 flask run
-
 ```
 * [http://localhost:5000](http://localhost:5000) will start service.
 
