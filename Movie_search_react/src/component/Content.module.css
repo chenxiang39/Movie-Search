@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: row;
+    -webkit-flex-direction:row;
+    padding-left: 195px;
+    margin-top: 12px;
+    min-height: calc(100vh - 40px - 18px - 10px - 12px);
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: column;
+    -webkit-flex-direction:column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+}
+.search_container{
+    padding-right: 15%;
+}

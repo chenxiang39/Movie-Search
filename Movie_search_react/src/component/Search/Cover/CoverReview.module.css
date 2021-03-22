@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: column;
+    margin-top: 50px;
+}
+.title{
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(26,2,1);
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+.itemContainer{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: column;
+}
+.itemTitle{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: row;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(26,2,1);
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+.itemDate{
+    line-height: 42px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.itemVote{
+    text-align:start;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(167,35,27);
+}
+.itemOverview{
+    display: -webkit-box;
+    text-align:start;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(26,2,1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+.itemLine{
+    align-self: center;
+    background-color: rgb(172,172,172);
+    height: 2px;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}

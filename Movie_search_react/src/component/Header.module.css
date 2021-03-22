@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    width: 100%;
+} 
+.title{
+    width: 230px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:rgb(167,35,27);
+}
+.colorbar{
+    width: 20%;
+    background-image: linear-gradient(to right, black , rgb(167,35,27));
+}

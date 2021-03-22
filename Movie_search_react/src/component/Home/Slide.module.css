@@ -1,0 +1,57 @@
+.header{
+    height: 70px;
+    width: 780px;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 28px;
+    color: white;
+    padding-left: 16%;
+}
+.img{
+    display: flex;
+    display: -webkit-flex; 
+    width: 780px;
+    height: 439px;
+    margin-left: 16%;
+    -webkit-animation:img_fade 2s 1 running; 
+    animation:img_fade 2s 1 running;
+}
+.img_copy{
+    display: flex;
+    display: -webkit-flex; 
+    width: 780px;
+    height: 439px;
+    margin-left: 16%;
+    -webkit-animation:img_fade_copy 2s 1 running; 
+    animation:img_fade_copy 2s 1 running;
+}
+@-webkit-keyframes img_fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes img_fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@-webkit-keyframes img_fade_copy {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes img_fade_copy {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.intro{
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    align-self: flex-end;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 19px;
+    color: white;
+    background-color: rgba(0,0,0,0.45);
+}

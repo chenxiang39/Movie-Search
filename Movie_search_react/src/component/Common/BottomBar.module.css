@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-self: flex-end;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(82,20,16);
+    margin-top: 8%;
+}
+.text{
+    text-align: right;
+    font-style: italic;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    color: rgb(160,122,119);
+    padding-right: 20px;
+}

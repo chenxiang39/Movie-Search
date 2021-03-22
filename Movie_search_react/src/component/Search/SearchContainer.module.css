@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    width: 100%;
+    flex-direction: column;
+    -webkit-flex-direction:column;
+}
+.notFoundContainer{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    color: rgb(220,220,220);
+}

@@ -1,0 +1,9 @@
+.container{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    background-color: black;
+    z-index: 1;
+}

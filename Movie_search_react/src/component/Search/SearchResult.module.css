@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: column;
+    -webkit-flex-direction:column;
+}
+.title{
+    height: 60px;
+    line-height: 60px;
+    text-align:start;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.listContainer{
+    display: block;
+}

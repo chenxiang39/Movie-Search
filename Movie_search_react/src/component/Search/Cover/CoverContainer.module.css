@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: row;
+    justify-content: center;
+    position:fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    left:0px;
+    top:0px;
+    bottom: 0px;
+    background:rgba(0, 0, 0, 0.8);
+    width:100%; 
+    z-Index:999; 
+}
+.detailContainer{
+    display: flex;
+    display: -webkit-flex; 
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: rgb(194,194,194);
+    margin-top: 105px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.cancelContainer{
+    display: flex;
+    display: -webkit-flex; 
+    width: 55px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.cancelButton{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    font-size: 14px;
+    color: rgb(160,160,160);
+}
+.cancelButton:hover{
+    color: rgb(26,2,1);
+}
+.contentContainer{
+    display: flex;
+    display: -webkit-flex; 
+    width: 780px;
+    flex-direction: column;
+}
+.contentTitleContainer{
+    display: flex;
+    display: -webkit-flex; 
+    padding: 25px 0px 10px 0px;
+    flex-direction: row;
+}
+.contentTitleText{
+    font-family: 'Raleway',sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(26,2,1);
+}
+.contentTitleButton{
+    background-color: transparent;
+    line-height: 35px;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(167,35,27);
+}
+.contentIntroGenre{
+    text-align:start;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    color: rgb(26,2,1);
+    font-weight: 500;
+}
+.contentIntroVoteContainer{
+    display: flex;
+    display: -webkit-flex; 
+    font-size: 12px;
+    flex-direction: row;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    margin-top: 18px;
+}
+.contentIntroVoteRed{
+    color: rgb(167,35,27);
+}
+.contentIntroVoteText{
+    margin-left: 10px;
+}
+.contentOverview{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(26,2,1);
+    margin-top: 35px;
+}
+.contentLanguage{
+    text-align:start;
+    font-family: 'Raleway',sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(26,2,1);
+    font-weight: 600;
+    margin-top: 15px;
+}
