@@ -1,7 +1,7 @@
 
 # Movie search system
 
-*   Deployed a full-stack TV show and movie search website for user to search related movies.
+*   Deployed a full-stack TV show and movie search website for users to search related movies.
 *  Accomplished an interactive webpage using ReactJS(include Redux), HTML, CSS in Front-end.
 *  Handled HTTP requests and responses (TMDB API) by using Flask.
 
