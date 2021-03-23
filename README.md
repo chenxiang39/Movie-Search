@@ -5,7 +5,7 @@
 *  Accomplished an interactive webpage using ReactJS(include Redux), HTML, CSS in Front-end.
 *  Handled HTTP requests and responses (TMDB API) by using Flask.
 
-*  Azure deployment preview: [Movie-Search](https://www.movie-search-react.cc/) (<strong>"FETCH DATA FAILED"</strong> may occur, which is Azure Service <strong>unavailable</strong>(the free service I use often goes down!!).)
+*  Azure deployment preview: [Movie-Search](https://www.movie-search-react.cc/) (<strong>"FETCH DATA FAILED"</strong> may occur, which is Azure Service <strong>UNAVAILABLE</strong>.(the free service I use often goes down!!)
 
 <br>
 
