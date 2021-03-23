@@ -8,7 +8,7 @@ const getGenre = (data) =>{
 export const getGenreAsync = () =>{
     return async (dispatch)=>{
         const genre = getLocalGenre();
-        if(JSON.stringify(genre) != "{}"){
+        if(JSON.stringify(genre) !== "{}"){
             const data = {};
             data.MovieGenre = genre.MovieGenre;
             data.TvGenre = genre.TvGenre;
