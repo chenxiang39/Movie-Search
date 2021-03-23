@@ -17,6 +17,9 @@ export const getLocalGenre = () =>{
             TvGenre : JSON.parse(localStorage.getItem('TvGenre'))
         }
     }
+    else{
+         clearLocalGenre();
+    }
     return genre;
 }
 
